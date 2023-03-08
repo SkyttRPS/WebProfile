@@ -1,0 +1,264 @@
+/* Apply a reset to remove default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the page */
+body {
+    background-color: #f6f8fa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* Style the main content */
+main {
+    margin: 2rem;
+}
+
+/* Style the sections */
+section {
+    margin-bottom: 2rem;
+}
+
+section h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section ul li {
+    margin-bottom: 1rem;
+}
+
+section ul li h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+section ul li p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Style the education section */
+section:nth-child(4) {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 2rem;
+}
+
+section:nth-child(4) h3 {
+    color: #fff;
+}
+
+section:nth-child(4) ul li h4 {
+    color: #fff;
+    font-weight: normal;
+}
+
+section:nth-child(4) ul li p {
+    color: #f6f8fa;
+}
+
+/* Style the footer */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+/* Style links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header h2 {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.about-me img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-me .info-box {
+    color: #fff;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-me h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about-me p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.soft-skills {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.soft-skills li {
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 7px 12px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.experience h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.experience ul {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.experience li {
+    margin-bottom: 10px;
+}
+
+.responsibility {
+    margin-bottom: 0.5rem;
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.job {
+    font-size: 20px;
+    margin-bottom: 0.8rem;
+    font-weight: bolder;
+}
+
+.experience .job-date {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.experience .job-description {
+    margin-bottom: 20px;
+}
+
+.experience .job-description ul {
+    margin-top: 0;
+}
+
+.experience .job-description li {
+    margin-bottom: 5px;
+}
+
+.experience .job-description p:last-child {
+    margin-bottom: 0;
+}
+
+.education ul {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.education ul li {
+    margin-bottom: 0.5rem;
+    list-style: disc;
+    margin-left: 10px;
+}
+
+.education p {
+    margin-bottom: 10px;
+
+}
+
+.education h4 {
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
